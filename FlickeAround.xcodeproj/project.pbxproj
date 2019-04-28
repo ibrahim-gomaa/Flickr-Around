@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0DB0332271DC21009B4331 /* PopVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DB0322271DC21009B4331 /* PopVc.swift */; };
+		0F155EF0226C9200008BED10 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F155EEF226C9200008BED10 /* PhotoCell.swift */; };
+		0F155EF3226CA3B9008BED10 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F155EF2226CA3B9008BED10 /* ApiCall.swift */; };
 		0F4563A22266319400D07C31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4563A12266319400D07C31 /* AppDelegate.swift */; };
-		0F4563A42266319400D07C31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4563A32266319400D07C31 /* ViewController.swift */; };
+		0F4563A42266319400D07C31 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4563A32266319400D07C31 /* MapVC.swift */; };
 		0F4563A72266319400D07C31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4563A52266319400D07C31 /* Main.storyboard */; };
 		0F4563A92266319800D07C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F4563A82266319800D07C31 /* Assets.xcassets */; };
 		0F4563AC2266319800D07C31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4563AA2266319800D07C31 /* LaunchScreen.storyboard */; };
+		0F704A9E22677C270040E790 /* DropPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F704A9D22677C270040E790 /* DropPin.swift */; };
+		1046BDA46206F7CDE918AA51 /* Pods_FlickeAround.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD05A7E76CF2FC4EEB358B2 /* Pods_FlickeAround.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BD05A7E76CF2FC4EEB358B2 /* Pods_FlickeAround.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickeAround.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6E1400D9AF89056168F1CE /* Pods-FlickeAround.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickeAround.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlickeAround/Pods-FlickeAround.release.xcconfig"; sourceTree = "<group>"; };
+		0F0DB0322271DC21009B4331 /* PopVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVc.swift; sourceTree = "<group>"; };
+		0F155EEF226C9200008BED10 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		0F155EF2226CA3B9008BED10 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
 		0F45639E2266319400D07C31 /* FlickeAround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickeAround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F4563A12266319400D07C31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F4563A32266319400D07C31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F4563A32266319400D07C31 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		0F4563A62266319400D07C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F4563A82266319800D07C31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F4563AB2266319800D07C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F4563AD2266319800D07C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F704A9D22677C270040E790 /* DropPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropPin.swift; sourceTree = "<group>"; };
+		30FB0F750840F2B5C828B9A0 /* Pods-FlickeAround.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickeAround.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlickeAround/Pods-FlickeAround.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1046BDA46206F7CDE918AA51 /* Pods_FlickeAround.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F155EF1226CA38E008BED10 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0F155EF2226CA3B9008BED10 /* ApiCall.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		0F4563952266319400D07C31 = {
 			isa = PBXGroup;
 			children = (
 				0F4563A02266319400D07C31 /* FlickeAround */,
 				0F45639F2266319400D07C31 /* Products */,
+				C59B66A289E4EB101819DD10 /* Pods */,
+				3D048F74CD00DC0E0B1A39AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,59 @@
 		0F4563A02266319400D07C31 /* FlickeAround */ = {
 			isa = PBXGroup;
 			children = (
-				0F4563A12266319400D07C31 /* AppDelegate.swift */,
-				0F4563A32266319400D07C31 /* ViewController.swift */,
+				0F155EF1226CA38E008BED10 /* Networking */,
+				0F4563B42266320200D07C31 /* View */,
+				0F4563B3226631F400D07C31 /* Controller */,
 				0F4563A52266319400D07C31 /* Main.storyboard */,
 				0F4563A82266319800D07C31 /* Assets.xcassets */,
+				0F704A9F2267A67B0040E790 /* SupportFile */,
+			);
+			path = FlickeAround;
+			sourceTree = "<group>";
+		};
+		0F4563B3226631F400D07C31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F4563A32266319400D07C31 /* MapVC.swift */,
+				0F0DB0322271DC21009B4331 /* PopVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0F4563B42266320200D07C31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F704A9D22677C270040E790 /* DropPin.swift */,
+				0F155EEF226C9200008BED10 /* PhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F704A9F2267A67B0040E790 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				0F4563A12266319400D07C31 /* AppDelegate.swift */,
 				0F4563AA2266319800D07C31 /* LaunchScreen.storyboard */,
 				0F4563AD2266319800D07C31 /* Info.plist */,
 			);
-			path = FlickeAround;
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		3D048F74CD00DC0E0B1A39AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BD05A7E76CF2FC4EEB358B2 /* Pods_FlickeAround.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C59B66A289E4EB101819DD10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30FB0F750840F2B5C828B9A0 /* Pods-FlickeAround.debug.xcconfig */,
+				0C6E1400D9AF89056168F1CE /* Pods-FlickeAround.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F4563B02266319800D07C31 /* Build configuration list for PBXNativeTarget "FlickeAround" */;
 			buildPhases = (
+				4511AE5F7EDDCBB4A10D5847 /* [CP] Check Pods Manifest.lock */,
 				0F45639A2266319400D07C31 /* Sources */,
 				0F45639B2266319400D07C31 /* Frameworks */,
 				0F45639C2266319400D07C31 /* Resources */,
+				FA3171ECCADB93FCB9A26D94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +200,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4511AE5F7EDDCBB4A10D5847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlickeAround-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3171ECCADB93FCB9A26D94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlickeAround/Pods-FlickeAround-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlickeAround/Pods-FlickeAround-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F45639A2266319400D07C31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F4563A42266319400D07C31 /* ViewController.swift in Sources */,
+				0F155EF3226CA3B9008BED10 /* ApiCall.swift in Sources */,
+				0F155EF0226C9200008BED10 /* PhotoCell.swift in Sources */,
+				0F0DB0332271DC21009B4331 /* PopVc.swift in Sources */,
+				0F4563A42266319400D07C31 /* MapVC.swift in Sources */,
+				0F704A9E22677C270040E790 /* DropPin.swift in Sources */,
 				0F4563A22266319400D07C31 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,11 +403,12 @@
 		};
 		0F4563B12266319800D07C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FB0F750840F2B5C828B9A0 /* Pods-FlickeAround.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7N6RRWA9C;
-				INFOPLIST_FILE = FlickeAround/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FlickeAround/SupportFile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +422,12 @@
 		};
 		0F4563B22266319800D07C31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6E1400D9AF89056168F1CE /* Pods-FlickeAround.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7N6RRWA9C;
-				INFOPLIST_FILE = FlickeAround/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FlickeAround/SupportFile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
